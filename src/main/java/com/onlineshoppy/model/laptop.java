@@ -6,6 +6,9 @@ public class laptop {
 	private String laptopName;
 	private String laptopProcessor;
 	private int laptopPrice;
+	
+	public laptop() {}
+	
 	public laptop(int laptopId, String laptopName, String laptopProcessor, int laptopPrice) {
 		super();
 		this.laptopId = laptopId;
